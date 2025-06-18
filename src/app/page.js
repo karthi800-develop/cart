@@ -89,21 +89,6 @@ export default function Home() {
     }, []);
 
 
-    const rows = (data) =>{
-
-      setValues(data)
-    }
-
-
-    useEffect(()=>{
-
-      getCategory(rows)
-    },[])
-
-
-
-
-
   return (
     <>
     <div className="bg-[#fbf9f4]">
@@ -119,8 +104,8 @@ export default function Home() {
 
 <div className="md:flex gap-3 items-center py-4">
 
-<button class="relative h-12 w-36  overflow-hidden border border-[#E9BB71] text-[#E9BB71] shadow-2xl transition-all duration-200 before:absolute before:bottom-0 before:left-0 before:right-0 before:top-0 before:m-auto before:h-0 before:w-0 before:rounded-sm before:bg-[#E9BB71] before:duration-300 before:ease-out hover:text-black rounded hover:shadow-[#E9BB71] hover:before:h-40 hover:before:w-40 hover:before:opacity-80">
-      <span class="relative z-10"> Free consultation </span>
+<button className="relative h-12 w-36  overflow-hidden border border-[#E9BB71] text-[#E9BB71] shadow-2xl transition-all duration-200 before:absolute before:bottom-0 before:left-0 before:right-0 before:top-0 before:m-auto before:h-0 before:w-0 before:rounded-sm before:bg-[#E9BB71] before:duration-300 before:ease-out hover:text-black rounded hover:shadow-[#E9BB71] hover:before:h-40 hover:before:w-40 hover:before:opacity-80">
+      <span className="relative z-10"> Free consultation </span>
     </button>
     
 
@@ -655,7 +640,7 @@ size={64}
 
 
  
-              <button class="before:ease relative h-12 w-40 overflow-hidden rounded border border-white bg-white text-[#295C51] shadow-2xl transition-all before:absolute before:right-0 before:top-0 before:h-12 before:w-8 before:translate-x-20 before:rotate-6 before:bg-white before:opacity-10 before:duration-700 hover:shadow-[#295C51] hover:before:-translate-x-64">
+              <button className="before:ease relative h-12 w-40 overflow-hidden rounded border border-white bg-white text-[#295C51] shadow-2xl transition-all before:absolute before:right-0 before:top-0 before:h-12 before:w-8 before:translate-x-20 before:rotate-6 before:bg-white before:opacity-10 before:duration-700 hover:shadow-[#295C51] hover:before:-translate-x-64">
       <span relative="relative z-10"> Free consultation</span>
     </button>
             </div>
@@ -679,8 +664,8 @@ size={64}
 
         </div>
 
-        <button class="relative h-12 w-full overflow-hidden border border-[#E9BB71] text-[#E9BB71] shadow-2xl transition-all duration-200 before:absolute before:bottom-0 before:left-0 before:right-0 before:top-0 before:m-auto before:h-0 before:w-0 before:rounded-sm before:bg-[#E9BB71] before:duration-300 before:ease-out hover:text-black rounded hover:shadow-[#E9BB71] hover:before:h-40 hover:before:w-full hover:before:opacity-80">
-      <span class="relative z-10"> Subscribe now </span>
+        <button className="relative h-12 w-full overflow-hidden border border-[#E9BB71] text-[#E9BB71] shadow-2xl transition-all duration-200 before:absolute before:bottom-0 before:left-0 before:right-0 before:top-0 before:m-auto before:h-0 before:w-0 before:rounded-sm before:bg-[#E9BB71] before:duration-300 before:ease-out hover:text-black rounded hover:shadow-[#E9BB71] hover:before:h-40 hover:before:w-full hover:before:opacity-80">
+      <span className="relative z-10"> Subscribe now </span>
     </button>
 
     <div className='py-5'>
@@ -724,12 +709,12 @@ size={64}
         <div className='flex gap-2 pb-6 text-gray-800'>
           <p className='text-xl font-mono'>$</p>
 
-          <p className='text-6xl font-semibold'>99<span className='text-base text-gray-500'>/month</span></p>
+          <p className='text-6xl font-semibold'>299<span className='text-base text-gray-500'>/month</span></p>
 
         </div>
 
   
-    <button class="before:ease relative h-12 w-full overflow-hidden rounded border border-[#295C51] bg-[#295C51] text-white shadow-2xl transition-all before:absolute before:right-0 before:top-0 before:h-12 before:w-8 before:translate-x-20 before:rotate-6 before:bg-white before:opacity-10 before:duration-700 hover:shadow-[#295C51] hover:before:-translate-x-64">
+    <button className="before:ease relative h-12 w-full overflow-hidden rounded border border-[#295C51] bg-[#295C51] text-white shadow-2xl transition-all before:absolute before:right-0 before:top-0 before:h-12 before:w-8 before:translate-x-20 before:rotate-6 before:bg-white before:opacity-10 before:duration-700 hover:shadow-[#295C51] hover:before:-translate-x-64">
       <span relative="relative z-10"> Subscribe now</span>
     </button>
 
@@ -1005,11 +990,11 @@ size={64}
             </div>
 
 <div className='gap-2 flex' >
-<button class="relative h-12 w-36 overflow-hidden border border-[#E9BB71] text-[#E9BB71] shadow-2xl transition-all duration-200 before:absolute before:bottom-0 before:left-0 before:right-0 before:top-0 before:m-auto before:h-0 before:w-0 before:rounded-sm before:bg-[#E9BB71] before:duration-300 before:ease-out hover:text-black rounded hover:shadow-[#E9BB71] hover:before:h-40 hover:before:w-40 hover:before:opacity-80">
-      <span class="relative z-10"> Free consultation </span>
+<button className="relative h-12 w-36 overflow-hidden border border-[#E9BB71] text-[#E9BB71] shadow-2xl transition-all duration-200 before:absolute before:bottom-0 before:left-0 before:right-0 before:top-0 before:m-auto before:h-0 before:w-0 before:rounded-sm before:bg-[#E9BB71] before:duration-300 before:ease-out hover:text-black rounded hover:shadow-[#E9BB71] hover:before:h-40 hover:before:w-40 hover:before:opacity-80">
+      <span className="relative z-10"> Free consultation </span>
     </button>
 
-    <button class="before:ease relative h-12 w-40 overflow-hidden rounded border border-[#295C51] bg-[#295C51] text-white shadow-2xl transition-all before:absolute before:right-0 before:top-0 before:h-12 before:w-6 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-10 before:duration-700 hover:shadow-[#295C51] hover:before:-translate-x-40">
+    <button className="before:ease relative h-12 w-40 overflow-hidden rounded border border-[#295C51] bg-[#295C51] text-white shadow-2xl transition-all before:absolute before:right-0 before:top-0 before:h-12 before:w-6 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-10 before:duration-700 hover:shadow-[#295C51] hover:before:-translate-x-40">
       <span relative="relative z-10"> Get in touch</span>
     </button>
 </div>
