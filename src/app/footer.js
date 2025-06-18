@@ -128,7 +128,7 @@ Create stunning, modern landing<br></br> pages that captivate your <br></br>audi
             <hr className="h-px my-6 bg-gray-200 border-none dark:bg-gray-700"/>
             <div className="md:flex max-w-screen-xl mx-auto items-center justify-center flex">
               <div>
-                <p className=" text-gray-500 dark:text-gray-400">©  {new Date().getFullYear()} <a className="hover:text-red-600 text-gray-500 font-semibold" href='https://www.srkitsolutions.com/' target="_blank" rel='noopener noreferrer' >SRK IT SOLUTIONS</a> . All Rights Reserved.</p>
+                <p className=" text-gray-500 dark:text-gray-400">©  {new Date().getFullYear()} <a className="hover:text-red-600 text-gray-500 font-semibold" href='/' target="_blank" rel='noopener noreferrer' > IT SOLUTIONS</a> . All Rights Reserved.</p>
               </div>
             </div>
           </div>
